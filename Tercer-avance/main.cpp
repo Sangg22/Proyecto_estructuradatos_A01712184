@@ -66,6 +66,8 @@ void showMenu() {
     std::cout << "Choose an option: ";
 }
 
+/*En este apartado me apoyo de ia unciamente para poder insertar el nombre
+del csv creado con la fecha local que se tenga.*/
 std::string generateUniqueFileName() {
     std::ostringstream fileName;
     std::time_t t = std::time(nullptr);
