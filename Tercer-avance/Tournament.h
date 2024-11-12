@@ -80,6 +80,14 @@ class Tournament{
         Caso Promedio: O(n)
         Peor de los casos: O(n)
         */
+        /*En este apartado me apoye de ia.
+        Donde se hace la función en la que se recibe
+        la ruta del archivo csv filePath para posteriormente
+        en el archivo creado se pone en el encabezado
+        los nombres de las columnas para despues crear una cola
+        de equipos temporales para luego acceder a los jugadores 
+        del equipo que quede para al final llamar los atributos 
+        de los jugadores y acomodarlos. Para el final cerrar el archivo*/
         void updateCSV(const std::string& filePath) {
             std::ofstream file(filePath);
             if (file.is_open()) {
@@ -104,7 +112,7 @@ class Tournament{
                 file.close();
                 std::cout << "Results saved to " << filePath << std::endl;
             } else {
-                std::cerr << "Error opening CSV file for updating\n";
+                std::cerr << "Error opening CSV file\n";
             }
         }
 };
