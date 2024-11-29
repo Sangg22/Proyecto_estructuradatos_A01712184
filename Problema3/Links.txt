@@ -2,7 +2,7 @@
 https://leetcode.com/problems/insert-into-a-binary-search-tree/
 
 # Link de problema acreditado:
-
+https://leetcode.com/problems/insert-into-a-binary-search-tree/submissions/1465730830/
 
 #Link de video con solución:
-
+https://youtu.be/tW_SJqfEIKM
